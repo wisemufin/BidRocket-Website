@@ -1,15 +1,8 @@
 /* Universal Styles */
 
-/*Fonts*/
-/*Regular Proxima Nova*/
-@font-face {
-  font-family: "Proxima-Nova-Regular";
-  src: url('resources/assets/fonts/Proxima_Nova_Regular-webfont.ttf') format('truetype');
-}
-
 html {
   font-size: 16px;
-  font-family: "Open Sans";
+  font-family: proxima-nova;
 }
 
 header {
@@ -38,7 +31,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 6rem;
+  padding-left: 100px;
 }
 
 .header-logo img {
@@ -48,7 +41,7 @@ a {
 
 /* NAV ITEMS */
 nav {
-  margin-right: 6rem;
+  padding-right: 40px;
 }
 
 nav span {
@@ -74,7 +67,84 @@ nav span {
 .hero-image {
   background: url(../assets/backgrounds/Hero.png) no-repeat center;
   background-size: cover;
-  height: 996px;
-  width: auto;
+  height: 980px;
+  width: 100%;
   position: relative;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* HERO IMAGE */
+.left-column-hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 800px;
+  padding-left: 40px;
+  padding-top: 165px;
+}
+
+/* .hero-image-left {
+} */
+
+.hero-image-left img {
+  width: 100%;
+  height: auto;
+}
+
+/* HERO TEXT */
+.right-column-hero {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  width: 50%;
+  height: 100%;
+}
+/* HERO TEXT SPACING */
+.hero-text-box {
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 8.875rem;
+}
+
+/* HERO H1 */
+.hero-h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+  line-height: 77px;
+  text-align: left;
+}
+
+.hero-h1 span {
+  color: #f04c23;
+}
+
+/* HERO H2 */
+.hero-h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: white;
+  padding-top: 2rem;
+  margin-bottom: 32px;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 40px;
+  background-image:linear-gradient(69deg, #f04c23, #f2b031);
+  border-radius: 4px;
+}
+
+.hero-button {
+  color: white;
+  font-weight: bold;
 }
