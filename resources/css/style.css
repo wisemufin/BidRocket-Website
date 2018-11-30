@@ -31,7 +31,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 100px;
+  padding-left: 3.75rem;
 }
 
 .header-logo img {
@@ -66,8 +66,9 @@ nav span {
 /* BACKGROUND */
 .hero-image {
   background: url(../assets/backgrounds/Hero.png) no-repeat center;
-  background-size: cover;
-  height: 980px;
+  background-size: contain;
+  background-position: top;
+  height: auto;
   width: 100%;
   position: relative;
 }
@@ -83,13 +84,14 @@ nav span {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  height: 800px;
+  /* height: 800px; */
   padding-left: 40px;
-  padding-top: 165px;
+  padding-top: 25px;
 }
 
-/* .hero-image-left {
-} */
+.hero-image-left {
+  padding-top: 50px;
+}
 
 .hero-image-left img {
   width: 100%;
@@ -106,9 +108,9 @@ nav span {
 }
 /* HERO TEXT SPACING */
 .hero-text-box {
-  width: 500px;
-  margin-left: 60px;
-  margin-top: 8.875rem;
+  width: 72%;
+  margin-left: 30px;
+  margin-top: .875rem;
 }
 
 /* HERO H1 */
