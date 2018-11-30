@@ -1,0 +1,80 @@
+/* Universal Styles */
+
+/*Fonts*/
+/*Regular Proxima Nova*/
+@font-face {
+  font-family: "Proxima-Nova-Regular";
+  src: url('resources/assets/fonts/Proxima_Nova_Regular-webfont.ttf') format('truetype');
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+header {
+  background-color: transparent;
+  height: 7.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+}
+
+/* LOGO PART OF NAVIGATION BAR */
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem;
+}
+
+.header-logo img {
+  height: 5rem;
+  width: 24.625rem;
+}
+
+/* NAV ITEMS */
+nav {
+  margin-right: 6rem;
+}
+
+nav span {
+  margin-right: 1.5rem;
+}
+
+.log-in {
+  padding: 11px 36px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+.sign-up {
+  color: white;
+  font-weight: bold;
+  padding: 11px 36px;
+  background-image:linear-gradient(69deg, #f04c23, #f2b031);
+  border-radius: 4px;
+}
+
+/* BACKGROUND */
+.hero-image {
+  background: url(../assets/backgrounds/Hero.png) no-repeat center;
+  background-size: cover;
+  height: 996px;
+  width: auto;
+  position: relative;
+}
