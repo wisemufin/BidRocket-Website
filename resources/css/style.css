@@ -340,7 +340,7 @@ nav span {
   background-size: 100% 100%;
   height: 2000px;
   width: 100%;
-  margin-top: -37rem;
+  margin-top: -53rem;
 }
 
 .first-footer-section {
@@ -348,6 +348,7 @@ nav span {
   flex-direction: row;
   width: 100%;
   margin-top: -3rem;
+  margin-bottom: 6.25rem;
 }
 
 .footer-image {
@@ -392,4 +393,58 @@ nav span {
   text-align: left;
   line-height: 44px;
   margin-left: 90px;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer-logos img {
+  width: 200px;
+}
+
+/* FOOTER NAV */
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5rem;
+  padding-bottom: 6rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.column h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.column h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #30383a;
+  padding: .5rem 0;
+}
+
+#bidrocket {
+  color: #f04c23;
+}
+
+#support {
+  color: #f2b031;
+}
+
+#company {
+  color: #078587;
+}
+
+#community {
+  color: #50b99f;
 }
