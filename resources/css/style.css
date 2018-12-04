@@ -340,7 +340,8 @@ nav span {
   background-size: 100% 100%;
   height: 2000px;
   width: 100%;
-  margin-top: -53rem;
+  margin-top: 100px;
+  /* margin-top: -103rem; */
 }
 
 .first-footer-section {
@@ -355,6 +356,7 @@ nav span {
   width: 50%;
   height: 100%;
   margin-left: 6rem;
+  margin-top: -100px;
 }
 
 .footer-image img {
@@ -372,11 +374,11 @@ nav span {
 
 .footer-text h1 {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   text-align: left;
-  margin-top: 340px;
-  margin-bottom: 12px;
-  margin-left: 90px;
+  margin-top: 18.375rem;
+  margin-bottom: .75rem;
+  margin-left: 5.625rem;
 }
 
 .footer-text h2 {
@@ -400,16 +402,31 @@ nav span {
   align-items: center;
   width: 100%;
   justify-content: space-around;
+  margin-bottom: 7.5rem;
 }
 
 .footer-logos img {
   width: 200px;
 }
 
+/* PRICING CARD */
+.pricing-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 780px;
+  width: 820px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  border-radius: .75rem;
+  box-shadow: 10px 10px 26px rgba(12, 32, 61, 0.15);
+}
+
 /* FOOTER NAV */
 .footer-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   margin-top: 5rem;
   padding-bottom: 6rem;
@@ -421,16 +438,20 @@ nav span {
   text-align: left;
 }
 
-.column h4 {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 .column h3 {
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.column h4 {
+  padding: .75rem 0;
+}
+
+.column h4 a {
+  font-size: 1rem;
+  font-weight: bold;
   color: #30383a;
-  padding: .5rem 0;
 }
 
 #bidrocket {
