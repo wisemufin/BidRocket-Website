@@ -414,6 +414,7 @@ nav span {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
   height: 780px;
   width: 820px;
   margin: 0 auto;
@@ -421,6 +422,80 @@ nav span {
   position: relative;
   border-radius: .75rem;
   box-shadow: 10px 10px 26px rgba(12, 32, 61, 0.15);
+}
+
+.pricing-card h1 {
+  padding: 40px 0;
+  width: 820px;
+  margin: 0 auto;
+  color: #01435c;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+#line {
+  width: 620px;
+  margin: 0 auto;
+  border: 1px solid #9b9b9b4a;
+}
+
+.platform-fee {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 478px;
+}
+
+.platform-fee h2 {
+  text-align: center;
+  font-size: 24px;
+  justify-content: center;
+  color: #30383a8a;
+}
+
+.check-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.check-text img {
+  height: 30px;
+}
+
+.check-text h2 {
+  text-align: left;
+  color: #30383a;
+  padding-left: 14px;
+}
+
+.additional-service {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 478px;
+}
+
+.additional-service h2 {
+  text-align: center;
+  font-size: 24px;
+  justify-content: center;
+  color: #30383a8a;
+}
+
+#card-text {
+  text-align: left;
+  color: #30383a;
+  padding-left: 14px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* FOOTER NAV */
