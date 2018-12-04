@@ -236,7 +236,7 @@ nav span {
 }
 
 /* SCREENSHOT SECTION OF THE SITE WITH ROCKETS! */
-.bidrocket-screen-1 {
+.bidrocket-screen {
   display: flex;
   flex-direction: row;
   flex-wrap: none;
@@ -301,7 +301,7 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 15%;
+  padding-right: 25%;
   padding-top: 8%;
 }
 
@@ -332,4 +332,64 @@ nav span {
 .screenshot-container img {
   width: 100%;
   height: 100%;
+}
+
+/* FOOTER */
+.footer-background {
+  background-image: url(../../resources/assets/backgrounds/footer.png);
+  background-size: 100% 100%;
+  height: 2000px;
+  width: 100%;
+  margin-top: -37rem;
+}
+
+.first-footer-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.footer-image {
+  width: 50%;
+  height: 100%;
+  margin-left: 6rem;
+}
+
+.footer-image img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  color: white;
+  flex-direction: column;
+}
+
+.footer-text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: left;
+  margin-top: 340px;
+  margin-bottom: 12px;
+  margin-left: 90px;
+}
+
+.footer-text h2 {
+  font-size: 32px;
+  text-align: left;
+  width: 502px;
+  line-height: 44px;
+  margin-left: 90px;
+  margin-bottom: 32px;
+}
+
+.footer-text h3 {
+  font-size: 22px;
+  text-align: left;
+  line-height: 44px;
+  margin-left: 90px;
 }
