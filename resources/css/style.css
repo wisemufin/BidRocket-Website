@@ -59,8 +59,16 @@ nav span {
   color: white;
   font-weight: bold;
   padding: 11px 36px;
-  background-image:linear-gradient(69deg, #f04c23, #f2b031);
+  background-image:linear-gradient(44deg, #f04c23, #f2b031);
   border-radius: 4px;
+}
+
+.sign-up:hover {
+  background-image:linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+.sign-up:active {
+  background-image:linear-gradient(44deg, #D6441F, #D89D2C);
 }
 
 /* BACKGROUND */
@@ -137,21 +145,30 @@ nav span {
   margin-bottom: 32px;
 }
 
-.button-box {
+a .button-box {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 290px;
   height: 40px;
-  background-image:linear-gradient(69deg, #f04c23, #f2b031);
+  background-image:linear-gradient(44deg, #f04c23, #f2b031);
   border-radius: 4px;
   margin-bottom: 100px;
+}
+
+a .button-box:hover {
+  background-image:linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+a .button-box:active {
+  background-image:linear-gradient(44deg, #D6441F, #D89D2C);
 }
 
 .hero-button {
   color: white;
   font-weight: bold;
 }
+
 
 /* COMPANY LOGOS */
 
@@ -235,6 +252,11 @@ nav span {
   border-radius: .25rem;
 }
 
+.all-features-button:hover {
+  background-color: rgba(215,217,218,0.33);
+  border: 1px solid #5E696C;
+}
+
 /* SCREENSHOT SECTION OF THE SITE WITH ROCKETS! */
 .bidrocket-screen {
   display: flex;
@@ -277,7 +299,11 @@ nav span {
   margin-bottom: 2rem;
 }
 
-.screenshot-text-container h3, .screenshot-text-container-alt h3 {
+.button-container {
+  margin-top: 2.5rem;
+}
+
+.screenshot-text-container .button-container a h3, .screenshot-text-container-alt a h3 {
   font-size: 20px;
   text-align: center;
   color: white;
@@ -285,8 +311,14 @@ nav span {
   border-radius: .25rem;
   border-color: #f04c23;
   background-color: #f04c23;
-  margin-top: 2.5rem;
+}
 
+.screenshot-text-container a h3:hover, .screenshot-text-container-alt a h3:hover {
+  background-color: #FF5125;
+}
+
+.screenshot-text-container a h3:active, .screenshot-text-container-alt a h3:active {
+  background-color: #D6441F;
 }
 
 .screenshot-text-container {
@@ -478,29 +510,42 @@ nav span {
 .card-button {
   display: flex;
   flex-direction: column;
-  margin: 40px auto;
+  margin: 40px auto 0px auto;
   width: 460px;
 }
 
-.card-button h2 {
+.card-button a h2 {
   text-align: center;
   padding: 17px 15px;
   border-radius: 4px;
   color: white;
-  /* font-weight: bold; */
-  background-image: linear-gradient(69deg, #f04c23, #f2b031);
-  margin-bottom: 24px;
+  font-weight: bold;
+  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  /* margin-bottom: 24px; */
 }
 
-.card-button h2 a {
+.card-button a h2:hover {
+  background-image:linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+.card-button a h2:active {
+  background-image:linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+.card-button a h2 {
   font-weight: bold;
 }
 
-.card-button h3 {
+.pricing-card .learn-more-card {
+  margin: 0px auto;
+  padding-top: 20px;
+}
+
+.learn-more-card a {
   text-align: center;
   color: #f2704c;
   font-size: 14px;
-
+  margin: 0px, auto, 40px, auto;
 }
 
 /* ADDITIONAL SERVICES SECTION OF PRICING CARD */
@@ -561,6 +606,10 @@ nav span {
   font-size: 1rem;
   font-weight: bold;
   color: #30383a;
+}
+
+.column h4 a:hover {
+  color: #6F8286;
 }
 
 #bidrocket {
