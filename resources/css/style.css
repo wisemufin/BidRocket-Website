@@ -426,6 +426,7 @@ nav span {
 
 .pricing-card h1 {
   padding: 40px 0;
+  padding-top: 50px;
   width: 820px;
   margin: 0 auto;
   color: #01435c;
@@ -440,6 +441,7 @@ nav span {
   border: 1px solid #9b9b9b4a;
 }
 
+/* PLATFORM FEE */
 .platform-fee {
   display: flex;
   flex-direction: column;
@@ -454,6 +456,7 @@ nav span {
   color: #30383a8a;
 }
 
+/* CSS FOR PUTTING CHECKS NEXT TO TEXT */
 .check-text {
   display: flex;
   justify-content: center;
@@ -472,6 +475,35 @@ nav span {
   padding-left: 14px;
 }
 
+.card-button {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 460px;
+}
+
+.card-button h2 {
+  text-align: center;
+  padding: 17px 15px;
+  border-radius: 4px;
+  color: white;
+  /* font-weight: bold; */
+  background-image: linear-gradient(69deg, #f04c23, #f2b031);
+  margin-bottom: 24px;
+}
+
+.card-button h2 a {
+  font-weight: bold;
+}
+
+.card-button h3 {
+  text-align: center;
+  color: #f2704c;
+  font-size: 14px;
+
+}
+
+/* ADDITIONAL SERVICES SECTION OF PRICING CARD */
 .additional-service {
   display: flex;
   flex-direction: column;
@@ -497,6 +529,8 @@ nav span {
   flex-direction: column;
   align-items: flex-start;
 }
+
+
 
 /* FOOTER NAV */
 .footer-nav {
@@ -543,4 +577,49 @@ nav span {
 
 #community {
   color: #50b99f;
+}
+
+/* SOCIAL MEDIA SECTION OF FOOTER */
+#line-2 {
+  border: .5px solid #dadada;
+  width: 100%;
+  margin: 0px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 82px;
+  width: 100%;
+}
+
+.bidrocket-logo-footer {
+  width: 156px;
+}
+
+.bidrocket-logo-footer img {
+  width: 100%;
+}
+
+.security-section {
+  display: flex;
+}
+
+.security-section p {
+  padding: 0px 15px;
+  font-size: 10px;
+  color: #01435c;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-icons a img {
+  height: 35px;
+  padding: 0px 5px;
 }
