@@ -1,5 +1,10 @@
 /* Universal Styles */
 
+@media only screen and (min-width: 430px) {
+  .mobile-hero {
+    display: none;
+  }
+
 html {
   font-size: 16px;
   font-family: proxima-nova;
@@ -129,9 +134,10 @@ nav span {
 /* HERO H1 */
 .hero-h1 {
   font-size: 4.5rem;
+  font-size: 5vw;
   font-weight: bold;
   color: white;
-  line-height: 77px;
+  line-height: 1;
   text-align: left;
 }
 
@@ -142,7 +148,8 @@ nav span {
 /* HERO H2 */
 .hero-h2 {
   font-size: 24px;
-  line-height: 30px;
+  font-size: 1.67vw;
+  line-height: 1.1;
   font-weight: 400;
   color: white;
   padding-top: 2rem;
@@ -647,6 +654,7 @@ a .button-box:active {
   padding: 0px 5px;
 }
 
+}
 
 /* MOBILE SITE */
 @media only screen and (max-width: 420px) {
