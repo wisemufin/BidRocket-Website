@@ -649,7 +649,7 @@ a .button-box:active {
 
 
 /* MOBILE SITE */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .hero-image,  .features-grid, .bidrocket-screen, .footer-background, .footer-nav, .line-2, .footer-social-media {
     display: none;
   }
@@ -675,8 +675,48 @@ a .button-box:active {
 
 .menu {
   height: 14px;
-  margin-right: 15%;
+  margin-right: 8%;
 }
+
+/* HERO SECTION */
+.mobile-hero {
+  background: url(../assets/mobile-assets/header-stars@2x.png) no-repeat center;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text-mobile {
+  margin: 25px auto;
+  width: 70%;
+}
+
+.hero-text-mobile h1 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-text-mobile h1 span {
+  color: #f04c23;
+}
+
+.hero-image-mobile {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-image-mobile img {
+  width: 100%;
+}
+
+
+
 
 
 }
