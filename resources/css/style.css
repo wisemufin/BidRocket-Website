@@ -203,9 +203,11 @@
     font-weight: bold;
     font-family: proxima-nova;
     font-size: 48px;
+    font-size: 3.335vw;
     line-height: 58px;
     text-align: center;
     margin: 4rem auto 2.5rem auto;
+    margin: 4.44vw auto 2.77vw auto;
   }
 
   .features-grid {
@@ -230,23 +232,33 @@
     justify-content: center;
   }
 
+  .feature img {
+    height: 6.94vw;
+  }
+
   .feature h3 {
     font-size: 24px;
+    font-size: 1.667vw;
     color: #01435c;
     text-align: center;
-    line-height: 30px;
+    line-height: 1.3;
     padding-top: .75rem;
+    padding-top: .833vw;
     width: 60%;
   }
 
   .all-features-button {
     text-align: center;
     margin: 0rem auto 9rem auto;
+    margin: 0 auto 10vw auto;
     font-size: 1rem;
+    font-size: 1.11vw;
     padding: 1.25rem 9rem;
+    padding: 1.388vw 10vw;
     color: #50b99f;
     border: solid 1px #50b99f;
     border-radius: .25rem;
+    border-radius: .277vw;
   }
 
   .all-features-button:hover {
@@ -377,6 +389,7 @@
     background-image: url(../../resources/assets/backgrounds/footer.png);
     background-size: 100% 100%;
     height: 2000px;
+    height: 138.88vw;
     width: 100%;
     margin-top: 100px;
     /* margin-top: -103rem; */
@@ -387,14 +400,17 @@
     flex-direction: row;
     width: 100%;
     margin-top: -3rem;
+    margin-top: -3.33vw;
     margin-bottom: 6.25rem;
+    margin-bottom: 6.94vw;
   }
 
   .footer-image {
     width: 50%;
     height: 100%;
     margin-left: 6rem;
-    margin-top: -100px;
+    margin-left: 6.66vw;
+    margin-top: -6.994vw;
   }
 
   .footer-image img {
@@ -413,26 +429,38 @@
   .footer-text h1 {
     font-weight: bold;
     font-size: 3rem;
+    font-size: 3.33vw;
     text-align: left;
-    margin-top: 18.375rem;
-    margin-bottom: .75rem;
+    margin-top: 16.375rem;
+    margin-top: 17vw;
+    margin-bottom: 1rem;
+    margin-bottom: 1.11vw;
     margin-left: 5.625rem;
+    margin-left: 6.25vw;
   }
 
   .footer-text h2 {
     font-size: 32px;
+    font-size: 2.22vw;
     text-align: left;
     width: 502px;
+    width: 34.861vw;
     line-height: 44px;
+    line-height: 3.055vw;
     margin-left: 90px;
+    margin-left: 6.25vw;
     margin-bottom: 32px;
+    margin-bottom: 2.22vw;
   }
 
   .footer-text h3 {
     font-size: 22px;
+    font-size: 1.527vw;
     text-align: left;
     line-height: 44px;
+    line-height: 3.055vw;
     margin-left: 90px;
+    margin-left: 6.25vw;
   }
 
   .footer-logos {
@@ -441,10 +469,12 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 7.5rem;
+    margin-bottom: 8.33vw;
   }
 
   .footer-logos img {
     width: 200px;
+    width: 13.88vw;
   }
 
   /* PRICING CARD */
@@ -454,27 +484,32 @@
     flex-direction: column;
     /* align-items: center; */
     height: 780px;
+    height: 54.166vw;
     width: 820px;
+    width: 56.94vw;
     margin: 0 auto;
     z-index: 2;
     position: relative;
     border-radius: .75rem;
     box-shadow: 10px 10px 26px rgba(12, 32, 61, 0.15);
+    box-shadow: .694vw .694vw 1.805vw rgba(12, 32, 61, 0.15);
   }
 
   .pricing-card h1 {
-    padding: 40px 0;
-    padding-top: 50px;
+    padding: 3.472vw 0 2.77vw 0;
     width: 820px;
+    width: 56.944vw;
     margin: 0 auto;
     color: #01435c;
     font-weight: bold;
     font-size: 48px;
+    font-size: 3.33vw;
     text-align: center;
   }
 
   #line {
     width: 620px;
+    width: 43.055vw;
     margin: 0 auto;
     border: 1px solid #9b9b9b4a;
   }
@@ -484,12 +519,15 @@
     display: flex;
     flex-direction: column;
     margin: 40px auto;
+    margin: 2.77vw auto;
     width: 478px;
+    width: 33.194vw;
   }
 
   .platform-fee h2 {
     text-align: center;
     font-size: 24px;
+    font-size: 1.66vw;
     justify-content: center;
     color: #30383a8a;
   }
@@ -501,29 +539,36 @@
     align-items: center;
     margin: 0 auto;
     padding-top: 20px;
+    padding-top: 1.38vw;
   }
 
   .check-text img {
     height: 30px;
+    height: 2.083vw;
   }
 
   .check-text h2 {
     text-align: left;
     color: #30383a;
     padding-left: 14px;
+    padding-left: 0.972vw;
   }
 
   .card-button {
     display: flex;
     flex-direction: column;
     margin: 40px auto 0px auto;
+    margin-left: 2.77vw auto 0 auto;
     width: 460px;
+    width: 31.944vw;
   }
 
   .card-button a h2 {
     text-align: center;
     padding: 17px 15px;
+    padding: 1.1805vw 1.0416vw;
     border-radius: 4px;
+    border-radius: .277vw;
     color: white;
     font-weight: bold;
     background-image: linear-gradient(44deg, #f04c23, #f2b031);
@@ -545,13 +590,16 @@
   .pricing-card .learn-more-card {
     margin: 0px auto;
     padding-top: 20px;
+    padding-top: 1.38vw;
   }
 
   .learn-more-card a {
     text-align: center;
     color: #f2704c;
     font-size: 14px;
+    font-size: .972vw;
     margin: 0px auto 40px auto;
+    margin: 0 auto 2.77vw auto;
   }
 
   /* ADDITIONAL SERVICES SECTION OF PRICING CARD */
@@ -559,12 +607,15 @@
     display: flex;
     flex-direction: column;
     margin: 40px auto;
+    margin: 2.77vw auto;
     width: 478px;
+    width: 33.194vw;
   }
 
   .additional-service h2 {
     text-align: center;
     font-size: 24px;
+    font-size: 1.66vw;
     justify-content: center;
     color: #30383a8a;
   }
@@ -573,6 +624,7 @@
     text-align: left;
     color: #30383a;
     padding-left: 14px;
+    padding-left: .972vw;
   }
 
   .services-container {
@@ -587,7 +639,9 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 5rem;
+    margin-top: 5.55vw;
     padding-bottom: 6rem;
+    padding-bottom: 6.66vw;
   }
 
   .column {
@@ -598,16 +652,20 @@
 
   .column h3 {
     font-size: 1rem;
+    font-size: 1.11vw;
     font-weight: bold;
     margin-bottom: .5rem;
+    margin-bottom: .55vw;
   }
 
   .column h4 {
     padding: .75rem 0;
+    padding: .833vw 0;
   }
 
   .column h4 a {
     font-size: 1rem;
+    font-size: 1.11vw;
     font-weight: bold;
     color: #30383a;
   }
@@ -645,11 +703,13 @@
     align-items: center;
     justify-content: space-around;
     height: 82px;
+    height: 5.694vw;
     width: 100%;
   }
 
   .bidrocket-logo-footer {
     width: 156px;
+    width: 10.833vw;
   }
 
   .bidrocket-logo-footer img {
@@ -662,7 +722,9 @@
 
   .security-section p {
     padding: 0px 15px;
+    padding: 0 1.0416vw;
     font-size: 10px;
+    font-size: .694vw;
     color: #01435c;
   }
 
@@ -674,7 +736,9 @@
 
   .social-media-icons a img {
     height: 35px;
+    height: 2.4305vw;
     padding: 0px 5px;
+    padding: 0 .3472vw;
   }
 }
 
