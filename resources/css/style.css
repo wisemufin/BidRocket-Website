@@ -753,22 +753,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 43px;
+    height: 44px;
+    height: 10.47610vw;
     width: 100%;
     background-color: #042a36;
   }
 
   .mobile-nav a {
     width: 6.25rem;
+    width: 23.8095vw;
     padding-left: 5%
   }
 
   .bidrocket-nav-logo {
     width: 6.25rem;
+    width: 23.8095vw;
   }
 
   .menu {
     height: 14px;
+    height: 3.33vw;
     margin-right: 8%;
   }
 
@@ -785,6 +789,7 @@
 
   .hero-text-mobile {
     margin: 25px auto;
+    margin: 7vw auto;
     width: 70%;
   }
 
